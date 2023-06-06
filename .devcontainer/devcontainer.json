@@ -19,7 +19,7 @@
 		// Configure properties specific to VS Code.
 		"vscode": {
 		  // Add the IDs of extensions you want installed when the container is created.
-		  "extensions": ["ms-python.vscode-pylance", "eamodio.gitlens", "ms-toolsai.jupyter", "ms-python.python"]
+		  "extensions": ["ms-python.vscode-pylance", "eamodio.gitlens", "ms-toolsai.jupyter", "ms-python.python", "github.copilot"]
 		}
 	}
 
