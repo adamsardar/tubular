@@ -1,9 +1,9 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
-	"name": "Python 3",
+	"name": "Debian Bullseye",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/python:0-3.8",
+	"image": "mcr.microsoft.com/vscode/devcontainers/base:bullseye",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -12,7 +12,7 @@
 	// "forwardPorts": [],
 
 	// Faster binary installs of some of the core, awkward deps
-	"updateContentCommand": "sudo apt update && sudo apt install -y python3-sklearn python3-pandas",
+	"updateContentCommand": "sudo apt update && sudo apt install -y python3-pip python3-sklearn python3-pandas",
 		
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "pip3 install --user -r requirements-dev.txt",
