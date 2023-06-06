@@ -12,7 +12,7 @@
 	// "forwardPorts": [],
 
 	// Faster binary installs of some of the core, awkward deps
-	"updateContentCommand": "apt update && apt install -y python3-sklearn python3-pandas",
+	"updateContentCommand": "sudo apt update && sudo apt install -y python3-sklearn python3-pandas",
 		
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "pip3 install --user -r requirements-dev.txt",
